@@ -94,3 +94,120 @@ git merge
 
 para juntar outras versoes
 
+
+
+…or create a new repository on the command line
+echo "# aulas_python_vesp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ataanderson/aulas_python_vesp.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/ataanderson/aulas_python_vesp.git
+git branch -M main
+git push -u origin main
+
+
+
+(venv) C:\Users\ead\Desktop\Gomes>git init
+
+inicializar o repositório
+
+(venv) C:\Users\ead\Desktop\Gomes>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Aula4-anotacoes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+
+cls
+
+Gerenciador de Credenciais do Windows em pesquisas do windows
+
+Exclui o que tiver e crie uma nova
+
+(venv) C:\Users\ead\Desktop\Gomes>git config --global user.name
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+(venv) C:\Users\ead\Desktop\Gomes>git config --global user.email ataanderson.silva@aluno.senai.br
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+
+(venv) C:\Users\ead\Desktop\Gomes>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Aula4-anotacoes.txt
+
+
+(venv) C:\Users\ead\Desktop\Gomes>git commit -m "aula4"
+[master (root-commit) 82b877d] aula4   
+ 2 files changed, 273 insertions(+)    
+ create mode 100644 .gitignore
+ create mode 100644 Aula4-anotacoes.txt
+
+(venv) C:\Users\ead\Desktop\Gomes>git status
+On branch master
+nothing to commit, working tree clean
+
+
+Verifica o caminho da conexão
+
+(venv) C:\Users\ead\Desktop\Gomes>git remote -v
+origin  https://github.com/ataanderson/aulas_python_vesp.git (fetch)
+origin  https://github.com/ataanderson/aulas_python_vesp.git (push)
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+
+Mudar de Master para main
+
+(venv) C:\Users\ead\Desktop\Gomes>git branch -M main
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+
+Empurrar o arquivo de origem
+(venv) C:\Users\ead\Desktop\Gomes>git push origin main
+
+Vai aparecer uma aba de acesso.
+
+info: please complete authentication in your browser...
+
+
+Subindo no Github
+
+(venv) C:\Users\ead\Desktop\Gomes>git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.71 KiB | 2.71 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ataanderson/aulas_python_vesp.git
+ * [new branch]      main -> main
+
+(venv) C:\Users\ead\Desktop\Gomes>
+
+
+
+
+
+git remote add origin https://github.com/ataanderson/aulas_python_vesp.git
