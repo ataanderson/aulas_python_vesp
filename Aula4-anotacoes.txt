@@ -1,0 +1,96 @@
+Aula 4
+
+PS C:\Users\ead\Desktop\Gomes> python -m venv venv
+PS C:\Users\ead\Desktop\Gomes>
+
+Ctrl + Shift + P
+
+Entrar em PowerShell
+Commande prompt
+
+
+C:\Users\ead\Desktop\Gomes>cd venv
+
+C:\Users\ead\Desktop\Gomes\venv>cd Scripts
+
+C:\Users\ead\Desktop\Gomes\venv\Scripts>
+
+
+C:\Users\ead\Desktop\Gomes\venv\Scripts>activate
+
+(venv) C:\Users\ead\Desktop\Gomes\venv\Scripts>
+
+Ativou o ambiente virtual
+
+
+# Atividade
+- Crie um program para o Boletim de notas do aluno. Guarde o nome do aluno, as notas e calcule a média final do aluno.
+
+- Dociplinas:
+    - Matemática
+    - Portuguès
+    - Geografia
+    - História
+    - Física
+
+- Ao obter as notas e media das notas, imprima o boletim do aluno informando as notas das materias e com o qunato ele ficou de média.
+
+nome = input('Digite a porra do seu nome se bizonho:')
+nota_mat = float(input('Digite a nota de matemática'))
+nota_port = float(input('Digite sua nota de Português:'))
+nota_geo = float(input('Digite sua nota de Geografia:'))
+nota_hist = float(input('Digite sua nota de História:'))
+nota_fis = float(input('Digite sea nota de Física:'))
+media_geral =(nota_mat + nota_port + nota_geo + nota_hist + nota_fis)/5
+print (f' A média geral das notas de Matemática: {nota_mat}, Português: {nota_port}, Geografia: {nota_geo}, História: {nota_hist}, Física: {nota_fis}. Sendo a média geral de: {media_geral}')
+print (f' O nome do aluno é: {nome})
+
+---
+
+
+
+print(30*'-', 'BOLETIM ESCOLAR', 30*'-')
+print(f'O nome do aluno é: {nome}')
+nome = input('Digite a porra do seu nome se bizonho:')
+
+nota_mat = (input('Digite a nota de matemática'))
+nota_mat = float(nota_mat)
+nota_port = float(input('Digite sua nota de Português:'))
+nota_port = float(nota_port)
+nota_geo = float(input('Digite sua nota de Geografia:'))
+nota_geo = float(nota_geo)
+nota_hist = float(input('Digite sua nota de História:'))
+nota_hist = float(nota_hist)
+nota_fis = float(input('Digite sea nota de Física:'))
+nota_fis = float(nota_fis)
+media_geral =(nota_mat + nota_port + nota_geo + nota_hist + nota_fis)/5
+print(f'A média geral das notas de: \n Matemática: {nota_mat}, \n Português: {nota_port}, \n Geografia: {nota_geo}, \n História: {nota_hist}, \n Física: {nota_fis}. \n Sendo a média geral de: {media_geral}')
+print(30*'-', 'BOLETIM ESCOLAR', 30*'-')
+
+
+github = versionamento
+Abrir terminal crtl '
+Git init startar github
+galhos brents
+master progeto principal
+
+
+git commit -m "primeiro commit"
+criou uma nova bolinha
+
+
+A cada commit é uma nova versao
+do projeto
+
+git branch ataanderson
+
+um novo parceiro
+
+git checkout ataanderson
+
+pode desenvolver e salvar nas versoes dele
+
+git merge 
+
+para juntar outras versoes
+
